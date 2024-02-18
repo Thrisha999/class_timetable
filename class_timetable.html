@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class time table</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            
+        }
+        table{
+            width:1000px;
+            height: 500px;
+            border-collapse: collapse;
+            position: relative;
+            left:750px;
+            font-size: 20px;
+            bottom: 0px;
+        }
+        tr{
+            height: 50px;
+            text-align: center;
+        }
+        
+        #lunch{
+            width: 80px;
+        }
+        #head{
+            height:80px;
+            width:30px;
+        }
+        .day{
+            width:90px;
+            background-color: grey;
+        }
+        #svecname{
+            text-align: center;
+            font-size: 30px;
+            line-height: 6px;
+        }
+        #dept{
+            text-align: center;
+            font-size: 30px;
+            line-height: 9px;
+        }
+        #room{
+            text-align: center;
+            font-size: 25px;
+            margin-right: 750px;
+            display: inline-block;
+            position: relative;
+            bottom:40px;
+            left:800px;
+            top:10px;
+        }
+        th{
+            background-color: grey;
+        }
+        #date{
+            display: inline-block;
+            position: relative;
+            font-size: 25px;
+            left:600px;
+            top:11px;
+        }
+        #info{
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+    <div id="svecname">
+        <p>SREE VIDYANIKETHAN ENGINEERING COLLEGE </p>
+        <p>(AUTONOMOUS)</p>
+        <p>Sree Sainath Nagar, Tirupati - 517502</p>
+    </div>
+    <div id="dept">
+        <p><b><u>DEPARTMENT OF COMPUTER SCIENCE AND SYSTEM ENGINEERING</u></b></p>
+        <p><b><u>CLASS WORK TIME TABLE (2023-2024)</u></b></p>
+        <p><b>III B.Tech II Semester (CSSE-A)</b></p>
+    </div>
+    <div id="room">
+        <p><b>Room No.:611 </b></p>
+    </div>
+    <div id="date"><p><b>W.E.F.:18.12.2023</b></p></div>
+    <table>
+    <tr id="head">
+        <th> <b>DAY/HR</b> </th>
+        <th> <b>10.30AM <br>to <br>11.20AM</b> </th>
+    
+        <th> <b>11.20AM <br>to <br> 12.10PM</b> </th>
+    
+        <th> <b>12.10PM <br> to <br> 1.00PM</b> </th>
+        <th rowspan="6" id="lunch"><b>L<br>U<br>N <br>C <br>H <br><br>B <br>R <br>E <br>A <br>K </b></th>
+    
+        <th> <b>2.15PM <br> to <br> 3.05PM</b> </th>
+    
+        <th> <b>3.05PM <br> to <br> 3.55PM</b> </th>
+    
+        <th> <b>3.55PM <br>to  <br> 4.45PM</b> </th>
+    </tr>
+    <tr>
+        <td class="day"><b>MON</b></td>
+        <td>WT</td>
+        <td>LIB</td>
+        <td>IS</td>
+        <td>IOT</td>
+        <td>AWSN</td>
+        <td>PBEA</td>
+    </tr>
+    <tr>
+        <td class="day"><b>TUE</b></td>
+        <td colspan="3">WT LAB <br> Room No:510</td>
+        <td>FOE</td>
+        <td>ML</td>
+        <td>IS</td>
+    </tr>
+    <tr>
+        <td class="day"><b>WED</b></td>
+        <td colspan="3">ML LAB <br> Room No:E</td>
+        <td>WT</td>
+        <td>AWSN</td>
+        <td>ML</td>
+    </tr>
+    <tr>
+        <td class="day"><b>THU</b></td>
+        <td>IOT</td>
+        <td>PBEA</td>
+        <td>WT</td>
+        <td>ML</td>
+        <td>IS</td>
+        <td>FOE</td>
+    </tr>
+    <tr>
+        <td class="day"><b>FRI</b></td>
+        <td colspan="3">DAD LAB <br> Room No:408-A</td>
+        <td>IOT</td>
+        <td>AWSN</td>
+        <td>PBEA</td>
+    </tr>
+    </table>
+</div>
+</body>
+</html>
